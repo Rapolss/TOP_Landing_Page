@@ -20,7 +20,7 @@ body{
 }
 
 .header{
-    display: flex;
+    display: flex;  
     justify-content: space-evenly;
     background: #142E45;
     padding: 12px 12px 12px 0px;
@@ -46,8 +46,10 @@ body{
     background-color: #142E45;
     display: flex;
     padding: 30px;
+    padding-bottom: 128px;
     justify-content: space-evenly;
     font-family: "lackregular";
+
 }
 
 .body_1_1{
@@ -90,7 +92,7 @@ body{
 
 .body_2{
     display: flex;
-    background-color: #ffaa66;
+    background-color: #ffecd6;
     flex-direction: column;
     align-items: center;
     padding: 40px;
@@ -105,7 +107,7 @@ body{
 
 .card{
     width: 200px;
-    color:#ffecd6
+    color: #ffaa66;
 }
 .body_2_2{
     width: 200px;
@@ -118,14 +120,18 @@ body{
 .card > img{
     height: 200px;
     width: 200px;
+    border: 5px solid #3c84c4;
+    border-radius: 5px;
 }
-
+.text{
+    margin-bottom: 64px;
+}
 .body_3{
     display:flex;
     flex-direction: column;
     align-items: center;
     background-color: #3c84c4;
-    padding:40px;
+    padding:128px 32px;
 }
 
 .body_3 > .qoute{
@@ -136,10 +142,63 @@ body{
     font-weight: 100px;
     font-style: italic;
     color: #ffecd6;
+    margin-bottom: 10px;
 }
 
 .body_3 > .name{
     width: 1000px;
     text-align: right;
     color: #ffaa66;
+    font-size: 20px;
 }
+
+.body_4{
+    background-color: #ffecd6;
+    display: flex;
+    padding: 128px 64px;
+    justify-content: center;
+}
+
+.popup_1{
+    background-color: #3272aa;
+    display: flex;
+    padding: 32px 124px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    gap:150px;
+}
+
+.ptext{
+    display: flex;
+    flex-direction: column;
+}
+.popup_1_1{
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffaa66;;
+    margin-bottom: 6px;
+}
+
+.popup_1_2{
+    font-size: 15px;
+    color: #ffecd6;
+}
+
+.popup_1 > button {
+    border-radius: 8px;
+    background-color: #3272aa;
+    border: 4px solid #ffaa66;
+    color: #ffaa66;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    background-color: #142E45;
+    justify-content: center;
+    color:#ffecd6;
+    padding: 32px;
+}
+
