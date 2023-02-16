@@ -1,0 +1,145 @@
+
+@font-face {
+    font-family: "lackregular";
+    src: url('./font/lack-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "lackregular";
+    src: url('./font/lack-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "lackregular";
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background: #142E45;
+    padding: 12px 12px 12px 0px;
+    gap: 550px;
+}
+.h_left{
+    display: flex;
+
+}
+
+.h_right{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.h_right > div{
+    font-size: 32px;
+    color: #ffecd6;
+    font-weight: bold;  
+}
+
+.body_1{
+    background-color: #142E45;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    font-family: "lackregular";
+}
+
+.body_1_1{
+    width: 400px;
+
+}
+
+.q1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffaa66;
+    margin-bottom: 24px;
+}
+
+.desc{
+    font-size: 18px;
+    color: #ffecd6;
+    margin-bottom: 24px;
+}
+
+.body_1_1 > button{
+    border:none;
+    border-radius: 8px;
+    background-color: #3272aa;
+    color: #ffecd6;
+    padding: 8px 24px;
+    font-size: 15 px;
+    font-weight: bold;
+    flex:0 0 1;
+}
+
+.body_1_2{
+    display: flex;
+    height: 250px;
+    /*1200x480px*/
+    flex-shrink: 0;
+    border: #ffaa66;
+    margin-left: 0px;
+}
+
+.body_2{
+    display: flex;
+    background-color: #ffaa66;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #142E45;
+}
+
+.card{
+    width: 200px;
+    color:#ffecd6
+}
+.body_2_2{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap:40px;
+    text-align: center;
+
+}
+.card > img{
+    height: 200px;
+    width: 200px;
+}
+
+.body_3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3c84c4;
+    padding:40px;
+}
+
+.body_3 > .qoute{
+
+    width: 1000px;
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 100px;
+    font-style: italic;
+    color: #ffecd6;
+}
+
+.body_3 > .name{
+    width: 1000px;
+    text-align: right;
+    color: #ffaa66;
+}
