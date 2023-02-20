@@ -18,6 +18,7 @@ body{
     flex-direction: column;
     font-family: "lackregular";
     border: none;
+    margin: 0px;
 }
 
 .header{
